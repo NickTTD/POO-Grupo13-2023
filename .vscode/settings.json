@@ -4,5 +4,6 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
     ],
-    "java.jdt.ls.java.home": "C:\\Games\\NJDK17"
+    "java.jdt.ls.java.home": "C:\\Games\\NJDK17",
+    "java.debug.settings.onBuildFailureProceed": true
 }
