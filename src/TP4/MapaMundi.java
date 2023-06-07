@@ -50,7 +50,7 @@ public class MapaMundi {
                         System.out.println("Provincias en el país " + pais + ":");
                         for (Provincia provincia : provincias) {
                             System.out.println(provincia.getNombre());
-                        // }
+                         }
                     }
 					esperarTecla();
                     break;
