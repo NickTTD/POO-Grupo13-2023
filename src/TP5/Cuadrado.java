@@ -30,8 +30,10 @@ public class Cuadrado extends Rectangulo {
     @Override
     public String toString() {
         return
-            super.toString()+
             "{" +
+            " nombre='" + getNombre() + "'" +
+            ", color='" + getColor() + "'" +
+            ", centro(XY)='" + getCentro() + "'" +
             " lado='" + getLado() + "'" +
             "}";
     }

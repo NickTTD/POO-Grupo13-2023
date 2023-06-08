@@ -11,7 +11,7 @@ public class PruebaHerencia {
         //f.mover(null);
         Cuadrado c1 = new Cuadrado("Cuadrado 1", "Violeta", new Punto (9,6), 7);
         Elipse e = new Elipse ("Elipse", "Azul", new Punto (3,7), 5 , 8);
-        Punto punto = new Punto(4,6);
+        //Punto punto = new Punto(4,6);
 
         System.out.println(r1.toString());
         System.out.println(r1.area());
