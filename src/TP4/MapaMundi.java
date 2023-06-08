@@ -1,8 +1,6 @@
 package TP4;
 import java.util.List;
 import java.util.Scanner;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 public class MapaMundi {
 
     public static void main(String[] args) {
@@ -83,10 +81,9 @@ public class MapaMundi {
 
         in.close();
     }
-	public static void esperarTecla() {
+    public static void esperarTecla() {
         System.out.println("Presione cualquier tecla para continuar...");
-        try (Scanner scanner = new Scanner(System.in)) {
-			scanner.nextLine();
-		}
+        Scanner scanner = new Scanner(System.in);    //Si usas try para arreglar este leak se rompe :)
+        scanner.nextLine();
     }
 }
