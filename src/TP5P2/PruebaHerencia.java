@@ -1,7 +1,15 @@
-package TP5;
+package TP5P2;
 
 import java.util.ArrayList;
 import java.util.List;
+
+
+
+// h) Transformando la clase figura en una Interface,
+// y tendría sentido ya que todas las figuras tienen área y perímetro, 
+//las clases subsecuentes deberían implementar la interface figura.
+
+
 public class PruebaHerencia {
     public static void main(String[] args) {
         Rectangulo r1 = new Rectangulo("Rectangulo 1", "Rojo", new Punto (3,6), 4, 5);

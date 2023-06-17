@@ -1,4 +1,4 @@
-package TP5;
+package TP5P2;
 
 public class Elipse extends Figura {
     private Integer radioMayor;
