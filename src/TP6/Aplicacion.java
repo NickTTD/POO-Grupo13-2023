@@ -20,7 +20,7 @@ public class Aplicacion {
 
         for (ImpactoEcologico objeto : objetosImpacto) {
             System.out.println("Información de identificación: " + objeto.getClass().getSimpleName());
-            System.out.println("Impacto ecológico: " + objeto.obtenerImpactoEcologico());
+            System.out.println("Impacto ecológico: " + objeto.obtenerImpactoEcologico()+"KG de Co2");
             System.out.println();
         }     
 	}
