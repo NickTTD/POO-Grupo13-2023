@@ -50,7 +50,7 @@ public class App {
             }
 
             // Si todas las validaciones pasan, crea un nuevo cliente
-            cliente nuevoCliente = new cliente();
+            Cliente nuevoCliente = new Cliente();
             nuevoCliente.setNombre(nombre);
             nuevoCliente.setCuit(cuit);
             nuevoCliente.setEmail(email);

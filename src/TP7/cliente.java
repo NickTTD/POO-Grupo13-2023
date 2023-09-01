@@ -1,11 +1,19 @@
 package TP7;
 
 //• De los Clientes se conoce el nombre, cuit, email y numero de celular.
-public class cliente {
+public class Cliente {
     private String nombre;
     private String cuit;
     private String email;
-    // private String email;
+    private String numeroCelular;
+
+    public String getNumeroCelular() {
+        return this.numeroCelular;
+    }
+
+    public void setNumeroCelular(String numeroCelular) {
+        this.numeroCelular = numeroCelular;
+    }
 
     // Getters setters
     public String getNombre() {
